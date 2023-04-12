@@ -1,0 +1,100 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#dashboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blue{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+div#circle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #0404af;
+}
+span#Core{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span#mainCore{
+  color: white;
+  font-size:40px;
+}
+span#SummaryText{
+  font-size: 10px;
+}
+h1#comment{
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+}
+p{
+  color: #b1aaaa;
+  font-size: 7px;
+  width: 70%;
+}
+
+#white{
+      display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+width: 50%; 
+height: 70%; border-radius: 25px;
+}
+#sum{
+  margin-top: 11px;
+  font-size: 15px;
+margin-right: 140px;
+}
+#otherItem{
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+width: 85%;
+}
+
+#otherItem div{
+      display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+width: 100%;
+  margin-top: 10px;
+  padding-left: 3px;
+}
+
+#button{
+  background-color: black; 
+  border-radius: 32px; 
+  width: 80%; 
+  font-size: 8px; 
+  color: white; 
+  padding: 7px;
+  margin: 10px 0px;
+}
+
+#button:hover{
+  background-color: blue;
+  border-radius: 32px; 
+  width: 80%; 
+  font-size: 8px; 
+  color: white; 
+  padding: 7px;
+  
+}
